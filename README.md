@@ -1,4 +1,5 @@
 [![Build Status][travis-image]][travis-url]
+[![License][license-image]][license-url]
 
 ***
 
@@ -35,4 +36,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [travis-image]: https://img.shields.io/travis/dasrick/tox-ng4.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dasrick/tox-ng4
+
+[license-image]: https://img.shields.io/github/license/dasrick/tox-ng4.svg?style=flat-square
+[license-url]: https://github.com/dasrick/tox-ng4/blob/master/LICENSE
 

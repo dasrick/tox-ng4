@@ -1,7 +1,17 @@
 {
   "name": "tox-ng4",
   "version": "0.0.0",
+  "description": "playground for angular 4 stuff",
+  "author": "Enrico Hoffmann <dasrick@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasrick/tox-ng4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dasrick/tox-ng4/issues"
+  },
+  "homepage": "https://github.com/dasrick/tox-ng4#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +20,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
