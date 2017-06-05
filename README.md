@@ -44,7 +44,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [travis-url]: https://travis-ci.org/dasrick/tox-ng4
 
 [david-image]: https://img.shields.io/david/dasrick/tox-ng4.svg?style=flat-square
-[david-url]: https://david-dm.org/dasrick/tox-ng4?type=dev
+[david-url]: https://david-dm.org/dasrick/tox-ng4
 [david-dev-image]: https://img.shields.io/david/dev/dasrick/tox-ng4.svg?style=flat-square
 [david-dev-url]: https://david-dm.org/dasrick/tox-ng4?type=dev
 
