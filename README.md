@@ -1,5 +1,7 @@
 [![github tag][github-tag-image]][github-tag-url]
 [![Build Status][travis-image]][travis-url]
+[![Dependency Status][david-image]][david-url]
+[![DevDependencies Status][david-dev-image]][david-dev-url]
 [![License][license-image]][license-url]
 
 ***
@@ -40,6 +42,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [travis-image]: https://img.shields.io/travis/dasrick/tox-ng4.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dasrick/tox-ng4
+
+[david-image]: https://img.shields.io/david/dasrick/tox-ng4.svg?style=flat-square
+[david-url]: https://david-dm.org/dasrick/tox-ng4?type=dev
+[david-dev-image]: https://img.shields.io/david/dev/dasrick/tox-ng4.svg?style=flat-square
+[david-dev-url]: https://david-dm.org/dasrick/tox-ng4?type=dev
+
+[david-optional-image]: https://img.shields.io/david/optional/dasrick/tox-ng4.svg?style=flat-square
+[david-peer-image]: https://img.shields.io/david/peer/dasrick/tox-ng4.svg?style=flat-square
 
 [license-image]: https://img.shields.io/github/license/dasrick/tox-ng4.svg?style=flat-square
 [license-url]: https://github.com/dasrick/tox-ng4/blob/master/LICENSE

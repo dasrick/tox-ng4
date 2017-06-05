@@ -37,8 +37,8 @@
   "devDependencies": {
     "@angular/cli": "^1.0.4",
     "@angular/compiler-cli": "^4.0.0",
-    "@types/jasmine": "2.5.38",
-    "@types/node": "~6.0.60",
+    "@types/jasmine": "^2.5.51",
+    "@types/node": "^7.0.27",
     "codelyzer": "^3.0.1",
     "jasmine-core": "^2.6.2",
     "jasmine-spec-reporter": "^4.1.0",
@@ -49,7 +49,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.0",
-    "ts-node": "~2.0.0",
+    "ts-node": "^3.0.4",
     "tslint": "^5.2.0",
     "typescript": "^2.3.4"
   }
