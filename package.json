@@ -1,6 +1,6 @@
 {
   "name": "tox-ng4",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "playground for angular 4 stuff",
   "author": "Enrico Hoffmann <dasrick@gmail.com>",
   "license": "MIT",
