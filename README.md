@@ -2,6 +2,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]
 [![DevDependencies Status][david-dev-image]][david-dev-url]
+[![DependencyCI Status][dependencyci-image]][dependencyci-url]
 [![License][license-image]][license-url]
 
 ***
@@ -47,6 +48,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [david-url]: https://david-dm.org/dasrick/tox-ng4
 [david-dev-image]: https://img.shields.io/david/dev/dasrick/tox-ng4.svg?style=flat-square
 [david-dev-url]: https://david-dm.org/dasrick/tox-ng4?type=dev
+
+[dependencyci-image]: https://dependencyci.com/github/dasrick/tox-ng4/badge
+[dependencyci-url]: https://dependencyci.com/github/dasrick/tox-ng4
 
 [david-optional-image]: https://img.shields.io/david/optional/dasrick/tox-ng4.svg?style=flat-square
 [david-peer-image]: https://img.shields.io/david/peer/dasrick/tox-ng4.svg?style=flat-square
