@@ -8,7 +8,9 @@ module.exports = function (config) {
     plugins: [
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
+      require('karma-phantomjs-launcher'),
       require('karma-jasmine-html-reporter'),
+      require('karma-junit-reporter'),
       require('karma-coverage-istanbul-reporter'),
       require('@angular/cli/plugins/karma')
     ],
@@ -27,20 +29,26 @@ module.exports = function (config) {
       'text/x-typescript': ['ts','tsx']
     },
     coverageIstanbulReporter: {
-      reports: [ 'html', 'lcovonly' ],
+      reports: [ 'html', 'lcovonly', 'clover' ],
       fixWebpackSourcePaths: true
+    },
+    // the default configuration
+    junitReporter: {
+      outputDir: './coverage/junit', // results will be saved as $outputDir/$browserName.xml
+      suite: '', // suite will become the package name attribute in xml testsuite element
+      useBrowserName: false // add browser name to report and classes names
     },
     angularCli: {
       environment: 'dev'
     },
     reporters: config.angularCli && config.angularCli.codeCoverage
-              ? ['progress', 'coverage-istanbul']
+              ? ['progress', 'junit', 'coverage-istanbul']
               : ['progress', 'kjhtml'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome'],
+    browsers: ['Chrome','PhantomJS'],
     singleRun: false
   });
 };
